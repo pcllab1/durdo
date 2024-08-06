@@ -64090,10 +64090,10 @@ $0(){var s=this.a
 s.M(new A.aX0(s))},
 $S:27}
 A.aX0.prototype={
-$0(){var s,r=this.a,q=r.fy=!1
-r.f=!0
+$0(){var s,r=this.a
+r.f=r.fy=!0
 s=r.x
-if(s!=null?s.e>=128:q)s.eM(0)
+if(s!=null&&s.e>=128)s.eM(0)
 else{if(r.bd==null){A.bG("Please choose an activity")
 return}r.lq()}r=r.y2
 r===$&&A.b()
@@ -64128,8 +64128,7 @@ r.fy=!0}if(q==="true")r.M(new A.aWX(r))},
 $S:0}
 A.aWX.prototype={
 $0(){var s=this.a
-s.f=!0
-s.fy=!1},
+s.fy=s.f=!0},
 $S:0}
 A.aXc.prototype={
 $0(){var s=A.c5(new A.aX5(),null,t.z)
