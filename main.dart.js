@@ -63842,7 +63842,8 @@ s.d=A.b5U()
 s.y2=A.b60(B.ld,new A.aXQ(),new A.aXR())
 s.bD.bI(s.cp.gdz().a.c.a.a).d2(0).bh(0,new A.aXS(s),t.P)
 s.aJ()
-s.ur()},
+s.ur()
+s.asP()},
 ur(){return this.ajR()},
 ajR(){var s=0,r=A.r(t.H),q,p=this,o,n,m,l,k,j
 var $async$ur=A.n(function(a,b){if(a===1)return A.o(b,r)
@@ -63873,7 +63874,6 @@ l=p.c
 if(!o){l.toString
 A.bG(A.T(l,B.f,m).gHX())}else{l.toString
 A.bG(A.T(l,B.f,m).gHf())}if(!k.a)p.M(new A.aWV(p))
-else p.asP()
 case 1:return A.p(q,r)}})
 return A.q($async$ur,r)},
 asP(){this.x=$.kz().gn0().cY(new A.aXi(this))},
